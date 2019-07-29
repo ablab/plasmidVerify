@@ -225,7 +225,6 @@ def main():
           if len(i.split())==1:
             nos_list.append(i)
         nos_list = [i.strip() for i in nos_list]
-        print (len((nos_list)))
     
     
         amb= [line.rstrip() for line in open(name + "_ambiguous.names")]
@@ -248,14 +247,12 @@ def main():
             if i in vir_list:
               final_table.append([i, names_result[i][0],names_result[i][1], names_result[i][2], "Virus", vir_list[i][0], vir_list[i][1],vir_list[i][2]])
             if i in nos_list:
-              print(i)
               final_table.append([i, names_result[i][0],names_result[i][1], names_result[i][2], "Non-significant"])
             if i in amb:
               final_table.append([i, names_result[i][0],names_result[i][1], names_result[i][2], "Ambiguous"])
     
        else:
             final_table.append([i, "Chromosome", "--"])
-       print(final_table)
     
     else:
      for i in ids: 
