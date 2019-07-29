@@ -72,7 +72,7 @@ def get_table_from_tblout(tblout_pfam):
 
 def naive_bayes(input_list):
     threshold = 0.714327349608 
-    tr=os.path.dirname(__file__) + "/plasmid_hmms_table_ps1_top_hit_e06_train.txt"
+    tr=os.path.dirname(os.path.abspath(__file__)) + "/plasmid_hmms_table_ps1_top_hit_e06_train.txt"
     with open(tr, 'r') as infile:
         table=infile.readlines()
         table = [i.split() for i in table]
