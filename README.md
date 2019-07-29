@@ -39,4 +39,5 @@ You can verify your output by BLAST to check if you found novel plasmid. In this
 
 
 Output file: comma-separated table <input_file>_result_table.csv
+
 Output format: contig name, prediction result, log-likelihood ratio, list of predicted HMMs
