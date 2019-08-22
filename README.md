@@ -41,3 +41,7 @@ You can verify your output by BLAST to check if you found novel plasmid. In this
 Output file: comma-separated table <input_file>_result_table.csv
 
 Output format: contig name, prediction result, log-likelihood ratio, list of predicted HMMs
+  
+  
+Please cite plasmidVeirfy as follows:  
+Antipov, D., Raiko, M., Lapidus, A., & Pevzner, P. A. (2019). Plasmid detection and assembly in genomic and metagenomic data sets. *Genome research*, 29(6), 961-968.
