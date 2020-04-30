@@ -8,6 +8,10 @@ and classifies the contig as plasmidic or chromosomal by applying the Naive Baye
 For the set of predicted HMMs, plasmidVerify uses trained NBC to classify this set to be plasmidic or chromosomal. 
 
 
+**Since plasmidVerify is designed to separate chromosome and plasmid fragments, it does not always work correctly when there are viruses in the metagenome.**  
+**To obtain more accurate results for plasmid analysis, we recommend using our novel tool [viralVerify](https://github.com/ablab/viralVerify) with the -p option.**
+
+
 ## Installation
 
 ### Requirements
